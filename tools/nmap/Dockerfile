@@ -1,5 +1,9 @@
 FROM ubuntu:18.04
 
+MAINTAINER Austin Songer (austin@songer.pro)
+
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt update && apt install -y build-essential libssh-dev openssl wget
 
 RUN wget https://nmap.org/dist/nmap-7.91.tar.bz2 && tar -xjvf nmap-7.91.tar.bz2
