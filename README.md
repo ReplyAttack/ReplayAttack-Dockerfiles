@@ -1,6 +1,6 @@
+This project is/will be a indirectly connected project of [RedScout](https://github.com/austinsonger/RedScout)
+
 ![](/img/SONGER%20TECH%20-%20Security%20Dockerfiles%20-%20README.png)
-
-
 
 ## TO DO
 
@@ -22,4 +22,21 @@
 cd cybersecurity-dockerfiles
 bash install-docker.sh
 ```
+
+## Build and run
+
+You could build a specific tool by using the ```docker build``` command:
+
+```
+docker build {path_to_dockerfile} -t asonger/{tool_name} --no-cache
+
+```
+
+Each of the Dockerfiles should have a run command at the top of the file, but usually you could just use:
+
+```
+docker run -it asonger/{tool_name}
+```
+
+
 
