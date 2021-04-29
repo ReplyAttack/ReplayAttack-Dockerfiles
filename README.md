@@ -16,5 +16,10 @@
    - [ ] Runs the shellcheck tests on the scripts.
 
 
+# Install Dockerfile
 
+```
+cd cybersecurity-dockerfiles
+bash install-docker.sh
+```
 
