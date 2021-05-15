@@ -1,6 +1,6 @@
 This project is/will be a indirectly connected project of [SneakAttack](https://github.com/austinsonger/SneakAttack)
 
-![](/img/SONGER%20TECH%20-%20Security%20Dockerfiles%20-%20README.png)
+![](/img/SneakAttack-Banner-DF.png)
 
 ## TO DO
 
