@@ -1,6 +1,6 @@
-This project is/will be a indirectly connected project of [SneakAttack](https://github.com/austinsonger/SneakAttack)
+This project is/will be a indirectly connected project of [SneakAttack](https://github.com/ReplyAttack/)
 
-![](/img/SneakAttack-Banner-DF.png)
+![](/img/ReplayAttack-Banner-DF.png)
 
 ## TO DO
 
