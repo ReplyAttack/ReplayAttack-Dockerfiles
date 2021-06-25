@@ -1,4 +1,4 @@
-This project is/will be a indirectly connected project of [SneakAttack](https://github.com/ReplyAttack/)
+This project is/will be a indirectly connected project of [ReplayAttack](https://github.com/ReplyAttack/)
 
 ![](/img/ReplayAttack-Banner-DF.png)
 
