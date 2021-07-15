@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL maintainer="austin@songer.pro"
 
-ENV HYDRA_VERSION=9.1
+ENV HYDRA_VERSION=9.2
 ENV HYDRA_URL=https://github.com/vanhauser-thc/thc-hydra/archive/v$HYDRA_VERSION.tar.gz
 
 RUN set -xe \
