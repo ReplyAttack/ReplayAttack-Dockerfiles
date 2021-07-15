@@ -16,7 +16,7 @@ RUN groupadd -r mitmproxy && useradd -r -g mitmproxy mitmproxy \
     && mkdir -p /home/mitmproxy/.mitmproxy \
 	&& chown -R mitmproxy:mitmproxy /home/mitmproxy
 
-ENV MITMPROXY_VERSION 5.1.1
+ENV MITMPROXY_VERSION 6.0.2
 RUN curl -sSL "https://snapshots.mitmproxy.org/${MITMPROXY_VERSION}/mitmproxy-${MITMPROXY_VERSION}-linux.tar.gz" | tar -vxzC /usr/local/bin
 
 VOLUME /home/mitmproxy/.mitmproxy
